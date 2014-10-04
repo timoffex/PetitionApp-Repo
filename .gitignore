@@ -1,2 +1,3 @@
-PetitionApp/bin
+*.class
+*.jar
 PetitionApp/project.properties
