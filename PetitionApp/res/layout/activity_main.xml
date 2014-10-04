@@ -8,9 +8,49 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nocodejustleague.petitionapp.MainActivity" >
 
-    <TextView
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginLeft="34dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="@string/VoteAgainst"
+        android:onClick = "SendYes"/> />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="142dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/Vote" 
+        android:onClick = "SendYes"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:ems="10" 
+        android:hint= "Enter Petition Description">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:text="Petition Name"/>
 
 </RelativeLayout>
