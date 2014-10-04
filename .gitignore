@@ -1,9 +1,15 @@
 *.class
 *.jar
+
+
+
 PetitionApp/project.properties
 PetitionApp/bin/*
 PetitionApp/gen/*
-R.java
+
+
+PetitionServer/bin/*
+PetitionServer/project.properties
 
 PetitionApp/gen/com/nocodejustleague/petitionapp/R.java
 
