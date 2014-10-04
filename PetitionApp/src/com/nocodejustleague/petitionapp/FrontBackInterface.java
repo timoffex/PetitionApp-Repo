@@ -13,4 +13,12 @@ public interface FrontBackInterface {
 	 * @param comment - an explanation of why the user voted so.
 	 */
 	public void voteDisagree(Petition petition, String comment);
+	
+	
+	/**
+	 * "Refreshes" the app page by retrieving petitions that should be shown on the
+	 * front page. Kind of like pressing "Home" on Facebook.
+	 * @param user - the user data/identifier the server will use.
+	 */
+	public void retrieveRelevantPetitions(User user);
 }
