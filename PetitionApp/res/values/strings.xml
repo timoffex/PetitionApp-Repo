@@ -4,5 +4,8 @@
     <string name="app_name">PetitionApp</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="Vote">Vote</string>
+	<string name= "VoteAgainst">Vote Against</string>
+	<string name= "PetitionName">Petition Name</string>
+	<string name= "Hint1">Enter Petition descripton</string>
 </resources>
