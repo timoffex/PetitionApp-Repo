@@ -4,3 +4,7 @@ PetitionApp/project.properties
 PetitionApp/bin/*
 PetitionApp/gen/*
 R.java
+
+PetitionApp/gen/com/nocodejustleague/petitionapp/R.java
+
+PetitionApp/gen/android/support/v7/appcompat/R.java
